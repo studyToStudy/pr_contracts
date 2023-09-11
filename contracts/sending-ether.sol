@@ -15,7 +15,7 @@ pragma solidity ^0.8.21;
 
 
 contract ReceiveEther {
-
+    // _to -> 이더 받을 사람
     event money(uint256 _value);
 
     function sendMoney(address payable _to) public payable {
